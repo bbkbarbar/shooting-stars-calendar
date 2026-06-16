@@ -40,6 +40,7 @@ A script futtatásához **Python 3.10+** és az `astropy` csillagászati könyvt
    ```bash
    python hullocsillag_idoszakok.py {kezdő_évszám} {generáltandó_évek_száma}
    ```
+   2026 és 2027 eseményeinek generálásához:
    ```bash
    python hullocsillag_idoszakok.py 2026 2
    ```
