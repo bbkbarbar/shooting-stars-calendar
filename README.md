@@ -31,6 +31,9 @@ A script nemcsak a meteorrajok elméleti csúcspontját figyeli, hanem **eleve a
 ## 🛠️ Követelmények és telepítés
 
 A script futtatásához **Python 3.10+** és az `astropy` csillagászati könyvtár szükséges a hozzá tartozó `numpy` és `pytz` csomagokkal együtt.
+   ```bash
+   pip install astropy
+   ```
 
 1. Klónozd a repót:
    ```bash
