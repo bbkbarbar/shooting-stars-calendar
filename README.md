@@ -23,7 +23,7 @@ A script nemcsak a meteorrajok elméleti csúcspontját figyeli, hanem **eleve a
 ### Szöveges áttekintő táblázat (Konzol & TXT kimenet)
 ![Konzol kimenet](https://github.com/bbkbarbar/shooting-stars-calendar/raw/main/result.png)
 
-### Google Naptár integráció (Importálás után)
+### Google Naptár integráció (A generált .ics fájl importálása)
 ![Google Naptár importálás](https://github.com/bbkbarbar/shooting-stars-calendar/raw/main/google_calendar_import.png)
 
 ---
@@ -36,3 +36,8 @@ A script futtatásához **Python 3.10+** és az `astropy` csillagászati könyvt
    ```bash
    git clone [https://github.com/bbkbarbar/shooting-stars-calendar.git](https://github.com/bbkbarbar/shooting-stars-calendar.git)
    cd shooting-stars-calendar
+2. Futtatás:
+   ```bash
+   python hullocsillag_idoszakok.py {kezdő_évszám} {generáltandó_évek_száma}
+   ```bash
+   python hullocsillag_idoszakok.py 2026 2
