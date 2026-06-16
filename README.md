@@ -1,6 +1,6 @@
 # ☄️ Univerzális Meteorraj Tervező & Naptár Generáló
 
-Egy intelligens Python script, amely csillagászati pontossággal számítja ki a négy legnagyobb meteorraj (**Lyridák, Perseidák, Orionidák, Geminidák**) láthatóságát Magyarország (alapértelmezetten Balatonszemes) területére vetítve. 
+Egy intelligens Python script, amely csillagászati pontossággal számítja ki a négy legnagyobb meteorraj (**Lyridák, Perseidák, Orionidák, Geminidák**) láthatóságát Magyarország (alapértelmezetten Budapest) területére vetítve. 
 
 A script nemcsak a meteorrajok elméleti csúcspontját figyeli, hanem **eleve a megfigyelési időablakok alatt vizsgálja a Hold pozícióját, horizont feletti magasságát és fázisát**. Ezzel pontosan megmutatja, hogy a fényszennyezés melyik éjszakákon fogja elnyomni a hullócsillagokat, és mikor kapunk tökéletesen sötét égboltot a kerti pokrócozáshoz.
 
