@@ -21,7 +21,7 @@ A script nemcsak a meteorrajok elméleti csúcspontját figyeli, hanem **eleve a
 ## 📸 Képernyőképek
 
 ### Szöveges áttekintő táblázat (Konzol & TXT kimenet)
-![Konzol kimenet](https://github.com/bbkbarbar/shooting-stars-calendar/raw/main/result.png)
+![Konzol kimenet](https://github.com/bbkbarbar/shooting-stars-calendar/blob/main/result.png)
 
 ### Google Naptár integráció (A generált .ics fájl importálása)
 ![Google Naptár importálás](https://github.com/bbkbarbar/shooting-stars-calendar/raw/main/google_calendar_import.png)
