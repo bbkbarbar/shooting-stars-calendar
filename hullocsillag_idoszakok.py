@@ -176,7 +176,10 @@ if __name__ == "__main__":
     ]
 
     print(f"✨ METEORRAJ-TERVEZŐ ({LOCATION_NAME}) ✨")
-    print(f"Vizsgált időszak: {current_year} ---> {current_year + YEAR_COUNT - 1}")
+    if YEAR_COUNT <= 1:
+        print(f"Vizsgált időszak: {current_year}")
+    else:
+        print(f"Vizsgált időszak: {current_year} ---> {current_year + YEAR_COUNT - 1}")
 
     for yr in range(current_year, current_year + YEAR_COUNT):
         for shower_name, info in METEOR_SHOWERS.items():
@@ -202,8 +205,8 @@ if __name__ == "__main__":
             sunset_max = get_sunset_time(peak_date, location, local_tz)
             m_rise_max, m_set_max = find_moon_events_for_window(peak_date, st_hour, dur_hours, location, local_tz)
             
-            m_rise_max_str = m_rise_max.strftime('%H:%M') if m_rise_max else "nem kel"
-            m_set_max_str = m_set_max.strftime('%H:%M') if m_set_max else "nem nyugszik"
+            m_rise_max_str = m_rise_max.strftime('%H:%M') if m_rise_max else "nincs"
+            m_set_max_str = m_set_max.strftime('%H:%M') if m_set_max else "nincs"
             sunset_max_str = sunset_max.strftime('%H:%M') if sunset_max else "--:--"
 
             all_day_desc = (
