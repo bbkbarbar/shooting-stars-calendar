@@ -12,7 +12,7 @@ A script nemcsak a meteorrajok elméleti csúcspontját figyeli, hanem **eleve a
 * **Egyedi időablakok:** A Geminidák korai keléséhez igazított 21:00-s indítás, míg a többi rajhoz a klasszikus 22:00-s sáv kezelése.
 * **Intelligens Hold-analízis:** Kiszámítja a Hold pontos fázisát és horizont feletti magasságát, és ez alapján automatikusan text-alapú ajánlásokat/osztályzatokat generál.
 * **Kettős kimenet:**
-  1. 📄 **Konzol & `.txt` jelentés:** Egy gyönyörűen formázott áttekintő táblázat az elkövetkező évekről.
+  1. 📄 **Konzol & `.txt` jelentés:** Egy szépen formázott áttekintő táblázat az elkövetkező évekről.
   2. 📅 **`.ics` naptárfájl:** Google Naptárba, Apple Calendarba vagy Home Assistant alá közvetlenül importálható naptáresemények (egésznapos emlékeztetőkkel és részletes leírást tartalmazó időzített blokkokkal).
 * **Szabad státusz:** A naptárbejegyzések `TRANSPARENT` foglaltságúak, így nem blokkolják a mindennapi naptáradat, nem jelölnek téged "elfoglaltnak".
 
