@@ -26,6 +26,9 @@ A script nemcsak a meteorrajok elméleti csúcspontját figyeli, hanem **eleve a
 ### Google Naptár integráció (A generált .ics fájl importálása)
 ![Google Naptár importálás](https://github.com/bbkbarbar/shooting-stars-calendar/raw/main/google_calendar_import.png)
 
+![Google Naptár importálás](https://github.com/bbkbarbar/shooting-stars-calendar/blob/main/calendar.png)
+
+
 ---
 
 ## 🛠️ Követelmények és telepítés
