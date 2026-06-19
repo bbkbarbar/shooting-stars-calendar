@@ -1,15 +1,15 @@
 # ☄️ Univerzális Meteorraj Tervező & Naptár Generáló
 
-Egy intelligens Python script, amely csillagászati pontossággal számítja ki a négy legnagyobb meteorraj (**Lyridák, Perseidák, Orionidák, Geminidák**) láthatóságát Magyarország (alapértelmezetten Budapest) területére vetítve. 
+Egy Python script, amely kiszámítja a négy legnagyobb meteorraj (**Lyridák, Perseidák, Orionidák, Geminidák**) láthatóságát Magyarország (alapértelmezetten Budapest) területére vetítve. 
 
-A script nemcsak a meteorrajok elméleti csúcspontját figyeli, hanem **eleve a megfigyelési időablakok alatt vizsgálja a Hold pozícióját, horizont feletti magasságát és fázisát**. Ezzel pontosan megmutatja, hogy a fényszennyezés melyik éjszakákon fogja elnyomni a hullócsillagokat, és mikor kapunk tökéletesen sötét égboltot a kerti pokrócozáshoz.
+A script nemcsak a meteorrajok elméleti csúcspontját figyeli, hanem **a megfigyelési időablakok alatt vizsgálja a Hold pozícióját, horizont feletti magasságát és fázisát**. Ezzel pontosan megmutatja, hogy a fényszennyezés melyik éjszakákon fogja elnyomni a hullócsillagokat, és mikor kapunk tökéletesen sötét égboltot a kerti pokrócozáshoz.
 
 ---
 
 ## ✨ Főbb funkciók
 
 * **4 nagy meteorraj támogatása:** Lyridák (április), Perseidák (augusztus), Orionidák (október) és Geminidák (december).
-* **Egyedi időablakok:** A Geminidák korai keléséhez igazított 21:00-s indítás, míg a többi rajhoz a klasszikus 22:00-s sáv kezelése.
+* **Egyedi időablakok:** A Geminidák korai keléséhez (és a decemberi korábbi naplementéhez) igazított 21:00-s indítás, míg a többi rajhoz 22:00-s sáv kezelése.
 * **Intelligens Hold-analízis:** Kiszámítja a Hold pontos fázisát és horizont feletti magasságát, és ez alapján automatikusan text-alapú ajánlásokat/osztályzatokat generál.
 * **Kettős kimenet:**
   1. 📄 **Konzol & `.txt` jelentés:** Egy szépen formázott áttekintő táblázat az elkövetkező évekről.
