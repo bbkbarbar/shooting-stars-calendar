@@ -30,7 +30,7 @@ Nyisd meg a [Google Calendar](https://calendar.google.com/) felületét.
 
 Menj a Beállítások ⚙️ -> Importálás és exportálás menüponthoz.
 
-Válaszd ki a legenerált hullocsillag_programok_szemes.ics fájlt.
+Válaszd ki a legenerált hullocsillag_programok_{{helyszin_neve}}.ics fájlt.
 
 Kattints az Importálás gombra.
 
