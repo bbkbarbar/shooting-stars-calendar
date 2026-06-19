@@ -23,6 +23,17 @@ A script nemcsak a meteorrajok elméleti csúcspontját figyeli, hanem **eleve a
 ### Szöveges áttekintő táblázat (Konzol & TXT kimenet)
 ![Konzol kimenet](https://github.com/bbkbarbar/shooting-stars-calendar/blob/main/result.png)
 
+### 📅 Hogyan importáld a Google Naptárba?
+Nyisd meg a Google Calendar felületét.
+
+(Ajánlott) Hozz létre egy új naptárat a bal oldalon a Más naptárak melletti + gombbal (pl. "☄️ Hullócsillagok" néven), és állítsd a színét neked tetszőre (pl. kékre).
+
+Menj a Beállítások ⚙️ -> Importálás és exportálás menüponthoz.
+
+Válaszd ki a legenerált hullocsillag_programok_szemes.ics fájlt.
+
+A "Hozzáadás naptárhoz" opciónál válaszd ki a frissen létrehozott naptáradat, majd kattints az Importálás gombra.
+
 ### Google Naptár integráció (A generált .ics fájl importálása)
 ![Google Naptár importálás](https://github.com/bbkbarbar/shooting-stars-calendar/raw/main/google_calendar_import.png)
 
