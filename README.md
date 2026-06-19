@@ -1,4 +1,4 @@
-# ☄️ Univerzális Meteorraj Tervező & Naptár Generáló
+# ☄️ Meteorraj Tervező & Naptár Generáló
 
 Egy Python script, amely kiszámítja a négy legnagyobb meteorraj (**Lyridák, Perseidák, Orionidák, Geminidák**) láthatóságát Magyarország (alapértelmezetten Budapest) területére vetítve. 
 
